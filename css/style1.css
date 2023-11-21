@@ -240,8 +240,12 @@ text-align: center;
     top:59px;
     left:19px;
 }
+.firstpart{
+	display: flex;
+    justify-content: center;
+}
 .firstpart>input{
-    margin: 0 auto;
+    /* margin: 10px auto; */
     background-color: #96ced1;
     border: 1px solid #ce96d1;
     padding: 10px 139px;
@@ -250,11 +254,14 @@ text-align: center;
 }
 .today{
     background-color: #bf28da;
-    margin: 0 auto;
+    margin: 10px auto;
 	width:50%;
 	padding:10px 0px;
 	box-shadow : 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
 	margin-top:40px;
+}
+.firstpart>button{
+	font-size: 20px;
 }
 .today>h1{
     text-align: center;
